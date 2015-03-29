@@ -1,7 +1,7 @@
 function LoadTableGame(state){
 	// if(state=="all"){
 		// alert("start search!!");
-		$.getJSON("game.json",function(data){
+		$.getJSON("http://140.130.35.62:8080/csie40025146/RCC/game.json",function(data){
 			var tablegamelist=data.tablegame;
 			var length=tablegamelist.length;
 
